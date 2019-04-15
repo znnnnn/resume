@@ -42,9 +42,11 @@ block education
             dd.education-major.icon-hat= education.major
             each val in education.honor
               dd.education-honor.icon-trophy!= val
+            each val in education.honor
+              dd.education-honor.icon-trophy!= val
 
 
-block language              
+block language
   section.language
     .sec-title-wrapper.icon-chat
       h3.sec-title
@@ -53,18 +55,18 @@ block language
         span.sec-en
           | Language
     .sec-content
-      dl.language-certificates
-        each val in language.cert
-          .language-cert-wrapper
-            dt.language-cert-type= val.name
-            dd.progress
-              .progress-bar(style= 'width:'+val.grade/val.fullmarks*100+'%')
-                span.progress-label= val.grade
+      //- dl.language-certificates
+      //-   each val in language.cert
+      //-     .language-cert-wrapper
+      //-       dt.language-cert-type= val.name
+      //-       dd.progress
+      //-         .progress-bar(style= 'width:'+val.grade/val.fullmarks*100+'%')
+      //-           span.progress-label= val.grade
       ul.language-skills
         each val in language.skills
           li.icon-star= val
 
-block experience   
+block experience
   section.experience
     .sec-title-wrapper.icon-rocket
       h3.sec-title

@@ -5,11 +5,10 @@
     "PDF会自动生成，文件名可以在 generate_pdf.js 里改",
     "PDF的地址，将这个文件里pdf部分改为你的PDF文件名即可"
   ],
-  "title": "刘子健 - 前端工程师",
-  "aside": [
-    {
-      "href": "https://github.com/Lxxyx/LxxyxResume",
-      "content": "源代码"
+  "title": "张楠 - 前端工程师",
+  "aside": [{
+      "href": "https://www.miaoroom.com/u/3/latest",
+      "content": "个人博客"
     },
     {
       "href": "./pdf/LxxyxResume.pdf",
@@ -26,52 +25,45 @@
   ],
   "header": {
     "title": {
-      "name": "刘子健",
+      "name": "张楠",
       "job": "前端工程师"
     },
     "contacts": {
-      "phone": "15579185518",
-      "mail": "Lxxyxzj@gmail.com",
-      "wechat": "Greboxer",
+      "phone": "15088997855",
+      "mail": "znnnnn@miaoroom.com",
+      "wechat": "guxue8461",
       "weibo": {
         "href": "http://weibo.com/u/2239592792",
-        "name": "刘子健_且行且歌"
+        "name": "张楠_且行且歌"
       },
       "github": {
-        "href": "https://github.com/Lxxyx",
-        "name": "Lxxyx"
+        "href": "https://github.com/znnnnn",
+        "name": "znnnnn"
       },
       "blog": {
-        "href": "http://www.lxxyx.win",
-        "name": "Lxxyx的前端乐园"
+        "href": "https://www.miaoroom.com/u/3/latest",
+        "name": "张楠的个人博客"
       }
     }
   },
   "education": {
-    "time": "2014-2018",
-    "name": "南昌大学",
-    "major": "人力资源管理（本科）",
+    "time": "2016-2019",
+    "name": "温州职业技术学院",
+    "major": "软件与信息服务",
     "honor": [
-      "2015.3 - 2016.8 南昌大学家园工作室 — 前端开发",
-      "2016.9 - 2017.6 `南昌大学家园工作室 — 前端负责人`"
+      "2016.9 - 2017.9 拓荒工作室 — 前端开发",
+      "2017.9 - 2018.9 `拓荒工作室 — 前端负责人`",
+      "2018.3 - 2018.6 系部`大数据与技术应用学生导师`"
     ]
   },
   "language": {
-    "cert": [
-      {
-        "name": "CET-4",
-        "grade": 491,
-        "fullmarks": 710
-      }
-    ],
     "skills": [
-      "能较为流畅的阅读开发文档及其他资料",
+      "能较为流畅的阅读`开发文档`及`技术文档`",
       "可在英文字幕下观看 MOOC 课程、开发者大会视频",
       "能正常使用Google与Stack Overflow解决开发问题"
     ]
   },
-  "experience": [
-    {
+  "experience": [{
       "title": {
         "place": "淘宝前端团队",
         "time": "2017.06-2018.01"
@@ -133,12 +125,10 @@
       "title": {
         "place": "南大家园-iNCU",
         "time": "2017.01-至今",
-        "links": [
-          {
-            "name": "下载链接",
-            "href": "http://incu.ncuos.com/"
-          }
-        ]
+        "links": [{
+          "name": "下载链接",
+          "href": "http://incu.ncuos.com/"
+        }]
       },
       "content": {
         "position": "客户端/前端/后台",
@@ -155,12 +145,10 @@
     {
       "title": {
         "place": "Koa2-Easy",
-        "links": [
-          {
-            "name": "源代码",
-            "href": "https://github.com/Lxxyx/koa2-easy"
-          }
-        ]
+        "links": [{
+          "name": "源代码",
+          "href": "https://github.com/Lxxyx/koa2-easy"
+        }]
       },
       "content": {
         "position": "Node.js",
@@ -175,8 +163,7 @@
   "skills": {
     "flags": {
       "name": "Web前端",
-      "skill": [
-        {
+      "skill": [{
           "name": "`HTML/CSS`",
           "description": [
             "能够编写语义化的 `HTML` ，熟悉 `CSS` 的使用，实现常用的布局与动画",
@@ -207,8 +194,7 @@
     },
     "cloud": {
       "name": "Web后端",
-      "skill": [
-        {
+      "skill": [{
           "name": "`Node.js`",
           "description": [
             "使用 `TypeScript + Koa2/Express` 等框架搭建后端服务",
@@ -229,8 +215,7 @@
     },
     "gears": {
       "name": "其它",
-      "skill": [
-        {
+      "skill": [{
           "name": "`计算机基础`",
           "description": [
             "计算机基础较好，`对计算机与编程有极大热情，自学能力较强`",

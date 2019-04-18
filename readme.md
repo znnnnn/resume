@@ -1,10 +1,3 @@
-# Introduction
-
-简历为仿写，原简历页面地址: [张秋怡 - 个人简历](https://joyeecheung.github.io/resume/) 【原主人已删除】
-
-简历基于 Gulp+Scss+Jade。  
-访问地址：[Lxxyx 的简历](https://resume.lxxyx.cn)
-
 ### 要求
 
 **Node 8.9.0 及以上**
@@ -19,7 +12,7 @@
 
 自动生成 PDF 版简历
 
-在 generate_pdf 与 info.json 中，替换 LxxyxResume.pdf 为你自己想要的名字
+在 generate_pdf 与 info.json 中，替换 znnnnnResume.pdf 为你自己想要的名字
 
 生成 PDF 的命令：
 

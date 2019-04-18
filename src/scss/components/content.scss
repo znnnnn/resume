@@ -243,6 +243,8 @@ dd {
   .experience-task {
     font-size: 15px;
     margin-left: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
     @include media("print") {
       font-size: 14px;
@@ -287,5 +289,7 @@ dd {
   .skill-description {
     font-size: 15px;
     margin-left: 23px;
+    // margin-top: 5px;
+    // margin-bottom: 5px;
   }
 }

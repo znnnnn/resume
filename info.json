@@ -1,5 +1,5 @@
 {
-  "Author": "Lxxyx - Inspired by Joyee Cheung",
+  "Author": "张楠",
   "Guide": [
     "照着这里面的格式填写即可",
     "PDF会自动生成，文件名可以在 generate_pdf.js 里改",
@@ -11,15 +11,15 @@
       "content": "个人博客"
     },
     {
-      "href": "./pdf/LxxyxResume.pdf",
+      "href": "./pdf/znnnnnResume.pdf",
       "content": "PDF下载"
     },
     {
-      "href": "https://segmentfault.com/u/lxxyx",
-      "content": "SF"
+      "href": "https://github.com/znnnnn",
+      "content": "GitHub"
     },
     {
-      "href": "https://www.zhihu.com/people/lxxyx",
+      "href": "https://www.zhihu.com/people/zhang-nan-3-36/",
       "content": "知乎"
     }
   ],
@@ -66,9 +66,9 @@
   },
   "language": {
     "skills": [
-      "能较为流畅的阅读 `开发文档` 及 `技术文档` ",
-      "可在英文字幕下观看 MOOC 课程、开发者大会视频",
-      "能正常使用Google与Stack Overflow解决开发问题"
+      "能流畅阅读中英文 开发文档 及 技术文档 ",
+      "能正常使用Google/Stack Overflow/Github Issues解决开发问题",
+      "可在英文字幕下观看 MOOC 课程、开发者大会视频"
     ]
   },
   "experience": [{
@@ -146,7 +146,7 @@
     },
     {
       "title": {
-        "place": "网络安全知识答题平台",
+        "place": "e摆渡",
         "time": "2018.03-2018.05"
       },
       "content": {
@@ -169,7 +169,7 @@
     {
       "title": {
         "place": "乡识网",
-        "time": "2018.08-2018.09"
+        "time": "2017.06-2017.09"
       },
       "content": {
         "position": "前端工程师",
@@ -204,16 +204,17 @@
       "skill": [{
           "name": "`HTML/CSS`",
           "description": [
-            "能够编写语义化的 `HTML` ，熟悉 `CSS` 的使用，实现常用的布局与动画",
+            "能够编写符合`W3C规范`的语义化 `HTML` ，熟悉 `CSS` 的使用，实现常用的布局与动画",
             "了解 `HTML5/CSS3` ，能熟练使用部分新特性",
-            "不借助框架，能编写`响应式/移动端网页`"
+            "不借助框架，能编写`响应式/移动端网页`",
+            "熟练使用`Element`、`Ant Design`、`Native Base`等常用的中英文开源框架"
           ]
         },
         {
           "name": "`ECMAScript（JavaScript）`",
           "description": [
             "熟悉 JavaScript ，`代码编写遵守规范`",
-            "了解` JavaScript 面向对象知识`与 `MV*` 模式",
+            "熟悉 `JavaScript 面向对象知识`与 `MV*` 模式",
             "理解 ECMAScript 规范及制定过程，`熟练使用 ES6/7/Next 开发项目 `",
             "熟悉异步编程，`掌握常见的解决方案及原理`"
           ]
@@ -222,10 +223,11 @@
           "name": "前端工程化实践",
           "description": [
             "日常使用 `TypeScript` 完成前后端项目",
-            "熟练使用 `React/Vue` ，完成单页和常见应用的编写",
-            "熟练使用 `React Native/Weex` 开发 App",
-            "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
-            "熟练使用 `Gulp , Webpack , Rollup` 等代码构建工具"
+            "熟练使用 `React/Vue` 全家桶，完成单页和常见应用的编写",
+            "熟练使用 `React Native/H5+` 开发 App",
+            "熟练使用 `jQuery/Bootstrap/Lodash` 等常见框架类库",
+            "熟练使用 `Webpack` 等代码构建工具",
+            "熟练使用 `Chrome` 的开发者工具"
           ]
         }
       ]
@@ -233,41 +235,66 @@
     "cloud": {
       "name": "Web后端",
       "skill": [{
-          "name": "`Node.js`",
+          "name": "`Spring & Spring Boot`",
           "description": [
-            "使用 `TypeScript + Koa2/Express` 等框架搭建后端服务",
-            "`使用 Node.js 开发命令行/爬虫程序`，并发布至 npm",
-            "能配合 MongoDB 完成 CRUD",
-            "使用 `Jest/Mocha/Ava` 编写单元及UI测试 并通过 Ci 实现持续集成"
+            "使用 `Spring Boot` 开发“微校”后端服务并已上线",
+            "熟练使用 `Spring Boot` 三层架构，编写符合`RESTful`规范的后端接口",
+            "了解 `Spring` 核心概念：`IOC/AOP`",
+            "熟练使用 `Spring Boot` 常用注解",
+            "熟练使用 `JTest/log4j` 编写单元测试"
+          ]
+        },
+        {
+          "name": "`Mybatis`",
+          "description": [
+            "熟练使用 `Mybatis Gernerater` 反向生成`Model`结构",
+            "熟练使用 xml文件 进行`单表、多表 CRUD`",
+            "搭配 `PageHelper` 分页插件进行分页查询",
+            "熟练使用`通用Mapper插件`，完全消除单表SQL",
+            "完成 `Nginx` 的配置，实现反向代理等功能"
           ]
         },
         {
           "name": "其它知识",
           "description": [
-            "熟悉 `HTTP 常见知识`,对 HTTP2/WebSocket 等新知识有所了解",
-            "日常使用 `Docker` 完成项目的构建与部署",
-            "完成 `Nginx` 的配置，实现反向代理等功能"
+            "熟练使用`Swagger2`编写规范、美观的API文档",
+            "日常使用 `Druid` 监控页面",
+            "熟练使用 `Fastjson` 处理json",
+            "熟悉 `阿里云短信配置` 完成验证码功能",
+            "熟悉文件上传、并整合进 `阿里云OSS对象存储`"
           ]
         }
       ]
     },
     "gears": {
       "name": "其它",
-      "skill": [{
+      "skill": [
+        {
           "name": "`计算机基础`",
           "description": [
-            "计算机基础较好，`对计算机与编程有极大热情，自学能力较强`",
-            "在校选课与 MOOC 自学《计算机科学导论》，《计算机网络》等课程",
-            "自学`数据结构与算法`，用 JavaScript 实现并归纳总结 -- <a href=\"http://t.cn/R4Ybrs0\">总结地址</a>",
-            "`坚持写原创技术博客，月浏览量3k`，在 Github 有自己的开源项目"
+            "在校成绩全系第一",
+            "对计算机与编程有极大热情，自学能力较强，`所有知识都为自学`",
+            "在`LeetCode`自学`数据结构与算法`，<a href=\"https://github.com/znnnnn/leetcode-cn-resolutions\" target='_blank' >LeetCode总结地址</a>",
+            "坚持写原创技术博客，月浏览量`30k+`，<a href=\"https://www.miaoroom.com/u/3/latest\" target='_blank' >个人博客地址</a>"
           ]
         },
         {
           "name": "工具使用",
           "description": [
-            "`两年 Linux 使用经验`，使用 macOS 作为日常系统",
-            "熟练使用 Git 等代码管理与团队协作工具，`使用 Gitflow 开发项目`并尝试在团队内推广使用",
-            "日常使用 `VSCode / Webstorm` 进行开发"
+            "熟练使用 `Git` 等代码管理与团队协作工具，有实际使用`Github协同开发的经验`",
+            "熟练使用`python`开发爬虫、Mapreduce等，了解大数据相关知识，并参加`国际比赛获奖`",
+            "`两年 Linux 使用经验`，熟悉命令行操作",
+            "熟悉 `七牛云/阿里云CDN/阿里云OSS` 相关配置",
+            "日常使用 `VSCode / Webstorm / IDEA` 进行开发"
+          ]
+        },
+        {
+          "name": "建站经验",
+          "description": [
+            "熟悉`Lamp`、`Lnmp`环境配置",
+            "本人熟悉建站至完整上线所有流程，`独立建站一年`",
+            "熟悉SEO，并在`Google/百度`有1000+的收录量",
+            "非常熟悉`宝塔面板`/`WordPress`以及相关周边生态"
           ]
         }
       ]

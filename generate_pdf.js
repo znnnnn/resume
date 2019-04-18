@@ -9,7 +9,7 @@ module.exports = async function generatePdf(url) {
   })
   await page.goto(url)
   await page.pdf({
-    path: './src/pdf/LxxyxResume.pdf',
+    path: './src/pdf/znnnnnResume.pdf',
     format: 'A4',
     printBackground: true,
     displayHeaderFooter: false,

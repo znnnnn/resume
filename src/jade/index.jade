@@ -55,13 +55,13 @@ block language
         span.sec-en
           | Language
     .sec-content
-      dl.language-certificates
-        each val in language.cert
-          .language-cert-wrapper
-            dt.language-cert-type= val.name
-            dd.progress
-              .progress-bar(style= 'width:'+val.grade/val.fullmarks*100+'%')
-                span.progress-label= val.grade
+      //- dl.language-certificates
+      //-   each val in language.cert
+      //-     .language-cert-wrapper
+      //-       dt.language-cert-type= val.name
+      //-       dd.progress
+      //-         .progress-bar(style= 'width:'+val.grade/val.fullmarks*100+'%')
+      //-           span.progress-label= val.grade
       ul.language-skills
         each val in language.skills
           li.icon-star= val
@@ -71,7 +71,7 @@ block experience
     .sec-title-wrapper.icon-rocket
       h3.sec-title
         span.sec-zh
-          | 项目与工作经验
+          | 项目经验
         span.sec-en
           | Experience
     .timeline-wrapper
@@ -85,10 +85,18 @@ block experience
               else if val.title.links
                 each link in val.title.links
                   a.experience-link(href=link.href target="_blank")= link.name
-            dl.experience-content
-              dt.experience-position= val.content.position
-              each task in val.content.tasks
-                dd.experience-task.icon-gear!= task
+            h3.experience-content
+                  span.experience-position
+                    | 项目角色：
+                  span= val.content.position
+            h3.experience-content-url
+                  span.experience-url-title
+                    | 项目链接：
+                  span.experience-url!= val.content.url
+            each task in val.content.tasks
+              dt.experience-task-title= task.tasksTitle
+                each taskContent in task.content
+                  dd.experience-task.icon-gear!= taskContent
 
 
 block skills

@@ -22,8 +22,8 @@ header {
     margin-top: 5px;
   }
   img {
-    width: 130px;
-    height: 130px;
+    width: 155px;
+    height: 155px;
   }
 }
 
@@ -60,7 +60,7 @@ address {
 }
 
 .phone {
-  display: none;
+  // display: none;
   @include media("print") {
     display: block;
   }

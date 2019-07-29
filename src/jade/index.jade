@@ -87,12 +87,12 @@ block experience
                   a.experience-link(href=link.href target="_blank")= link.name
             h3.experience-content
                   span.experience-position
-                    | 项目角色：
+                    | 岗位：
                   span= val.content.position
             h3.experience-content-url
                   span.experience-url-title
                     | 项目链接：
-                  span.experience-url!= val.content.url
+                  span.experience-url!= val.content.url 
             each task in val.content.tasks
               dt.experience-task-title= task.tasksTitle
                 each taskContent in task.content

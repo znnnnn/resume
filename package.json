@@ -15,7 +15,7 @@
   "author": "znnnnnn",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-connect": "^5.0.0",
     "gulp-copy": "^0.0.2",
